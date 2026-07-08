@@ -1,0 +1,13 @@
+{
+  "name": "reels-digest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily trending Reels/Shorts digest for urp marketing",
+  "type": "module",
+  "scripts": {
+    "run": "node src/run.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0"
+  }
+}

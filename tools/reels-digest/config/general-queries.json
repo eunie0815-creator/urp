@@ -1,0 +1,11 @@
+{
+  "youtubeQueries": [
+    "viral shorts today",
+    "trending sound shorts",
+    "trending challenge shorts"
+  ],
+  "tiktok": {
+    "countryCode": "US",
+    "timeRangeDays": 7
+  }
+}
