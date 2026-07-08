@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "generated_at": "2026-07-08T15:35:19.732Z",
+  "generated_at": "2026-07-08T23:06:01.422Z",
   "sources": {
     "tiktok": {
       "status": "ok",
@@ -21,7 +21,7 @@
       "thumbnail_url": "https://i.ytimg.com/vi/9JOZj9XF6uQ/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/9JOZj9XF6uQ",
       "stats": {
-        "views": 32361,
+        "views": 36702,
         "likes": null,
         "comments": 4
       },
@@ -45,7 +45,7 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:math trick shorts",
       "published_at": "2026-07-07T13:11:28Z",
-      "ai_blurb": "This video is trending by tapping into the viral 'Asian math tricks' niche—combining educational appeal with the allure of learning secret shortcuts. Borrow the format of demonstrating a counterintuitive or visual method quickly, paired with emojis that signal intrigue (😲🥶🔥) and hashtags that stack educational keywords for search discoverability."
+      "ai_blurb": "This video leverages the \"secret trick\" hook and education-focused hashtags (#mathhacks, #mentalmath, #asianmath) that appeal to students and parents seeking productivity. Borrow the format of revealing a quick, visual problem-solving method with eye-catching emojis that signal value and surprise (😲🥶🔥)."
     },
     {
       "id": "youtube:roUfreeXvx8",
@@ -55,8 +55,8 @@
       "thumbnail_url": "https://i.ytimg.com/vi/roUfreeXvx8/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/roUfreeXvx8",
       "stats": {
-        "views": 9075,
-        "likes": 123,
+        "views": 15776,
+        "likes": 168,
         "comments": 0
       },
       "hashtags": [
@@ -65,7 +65,7 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:math trick shorts",
       "published_at": "2026-07-07T15:00:33Z",
-      "ai_blurb": "The interactive 'Can You Do It?' challenge format creates engagement by inviting viewers to participate mentally before revealing the answer. Replicate this hook by framing your content as a test or challenge directed at your audience, which naturally boosts watch time and comment engagement."
+      "ai_blurb": "The interactive challenge format (\"Can You Do It?\") with a playful emoji and question encourages viewer engagement and completion. Use this approachable, inclusive hook to invite your audience to test themselves while offering a satisfying reveal of the answer."
     },
     {
       "id": "youtube:4M2mxBw3N6M",
@@ -75,8 +75,8 @@
       "thumbnail_url": "https://i.ytimg.com/vi/4M2mxBw3N6M/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/4M2mxBw3N6M",
       "stats": {
-        "views": 2649,
-        "likes": 195,
+        "views": 2802,
+        "likes": 203,
         "comments": 4
       },
       "hashtags": [
@@ -102,64 +102,12 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:math trick shorts",
       "published_at": "2026-07-07T08:30:32Z",
-      "ai_blurb": "This puzzle-based math video leverages multiple trending hashtags (#decodethepuzzle, #brainteasers, #iqtest) that signal it solves for curiosity and gamification appeal. Adopt the 'decode' or 'puzzle-solving' framing and stack hashtags that target both entertainment and educational audiences simultaneously."
-    },
-    {
-      "id": "youtube:XYL6GjAuf6U",
-      "platform": "youtube",
-      "rank": 4,
-      "title": "Can you solve this without a calculator? 🧠 #Shorts #Math",
-      "thumbnail_url": "https://i.ytimg.com/vi/XYL6GjAuf6U/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/XYL6GjAuf6U",
-      "stats": {
-        "views": 1454,
-        "likes": 14,
-        "comments": 1
-      },
-      "hashtags": [
-        "#Shorts",
-        "#Math",
-        "#Math",
-        "#MentalMath",
-        "#Multiplication",
-        "#MathChallenge",
-        "#NoCalculator",
-        "#Education",
-        "#Shorts"
-      ],
-      "sound_name": null,
-      "source_query_or_hashtag": "search:math trick shorts",
-      "published_at": "2026-07-07T12:00:24Z",
-      "ai_blurb": "The 'no calculator' challenge hook taps into viewers' desire to feel smart and capable of mental math without tools. Use this angle when demonstrating any quick-solve method—emphasize the 'do it in your head' or 'without assistance' framing to create a sense of personal achievement."
-    },
-    {
-      "id": "youtube:m5f_BnpidG4",
-      "platform": "youtube",
-      "rank": 5,
-      "title": "How I Study When I'm Too Tired to Study",
-      "thumbnail_url": "https://i.ytimg.com/vi/m5f_BnpidG4/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/m5f_BnpidG4",
-      "stats": {
-        "views": 1161,
-        "likes": 19,
-        "comments": 1
-      },
-      "hashtags": [
-        "#Shorts",
-        "#StudyTips",
-        "#StudyWithMe",
-        "#ProductivityHacks",
-        "#StudentLife"
-      ],
-      "sound_name": null,
-      "source_query_or_hashtag": "search:productivity tips student shorts",
-      "published_at": "2026-07-06T23:00:39Z",
-      "ai_blurb": "This hits the student productivity niche by addressing a relatable pain point (being too tired to study), which resonates with the target audience and drives search traffic. Frame your content around solving specific student problems—the more relatable the struggle, the higher the engagement."
+      "ai_blurb": "This combines puzzle and quiz formats under hashtags like #decodethepuzzle and #BrainTeasers that target viewers seeking mental challenges. Borrow the numbered format (\"Basic Math Test 933\") and multi-tag strategy to reach both math-focused and riddle-loving audiences simultaneously."
     },
     {
       "id": "youtube:gfCr8FRaAJs",
       "platform": "youtube",
-      "rank": 6,
+      "rank": 4,
       "title": "Still Guessing on MyMathLab Answers? 🤔 #onlineclasses #shorts",
       "thumbnail_url": "https://i.ytimg.com/vi/gfCr8FRaAJs/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/gfCr8FRaAJs",
@@ -184,12 +132,12 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:homework help shorts",
       "published_at": "2026-07-07T03:00:07Z",
-      "ai_blurb": "By calling out a specific platform (MyMathLab) and pain point (homework struggles), this video targets a niche audience actively searching for solutions. Use this tactic: identify the exact tool or problem your audience faces and name-drop it in your title to capture high-intent search traffic."
+      "ai_blurb": "Although this video has minimal traction, it targets a specific pain point (struggling with homework platforms like MyMathLab) that shows niche audience demand. Borrow the problem-identification format with a relatable question emoji to directly address student frustrations."
     },
     {
       "id": "youtube:faDjQq8ep2U",
       "platform": "youtube",
-      "rank": 7,
+      "rank": 5,
       "title": "This FREE AI Tool Every Student Needs in 2026 🤯 #shorts #ai #technology",
       "thumbnail_url": "https://i.ytimg.com/vi/faDjQq8ep2U/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/faDjQq8ep2U",
@@ -219,7 +167,7 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:productivity tips student shorts",
       "published_at": "2026-07-08T08:12:17Z",
-      "ai_blurb": "The 'FREE AI tool' angle combined with the shocked emoji (🤯) and year-specific relevance (2026) creates urgency and positions the content as must-have information. Borrow this by highlighting free tools or hacks that feel exclusive, urgent, or ahead-of-the-curve for your niche."
+      "ai_blurb": "The \"FREE AI Tool\" hook taps into trending tech and student productivity interests with urgency (\"Every Student Needs in 2026\") and surprise (🤯). Replicate this format by highlighting exclusive, timely tools or hacks with future-focused language that drives curiosity."
     }
   ],
   "general": [
@@ -228,7 +176,7 @@
       "platform": "tiktok",
       "rank": 1,
       "title": "he’s loving it #loveisland @Kalshi ",
-      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/o4sOR3GXqQSiEVDpfBJFIxxEQsDFR8AXlgfJMY~tplv-tiktokx-origin.image?dr=9643&nonce=5428&refresh_token=d42a3291c45e9e9c21f48693ebdb3971&x-expires=1784127600&x-signature=cW9DF%2Bcx1HLYROrXtIjj5twLzW0%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
+      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/o4sOR3GXqQSiEVDpfBJFIxxEQsDFR8AXlgfJMY~tplv-tiktokx-origin.image?dr=9643&nonce=46570&refresh_token=d1ae44829c12f4dd683ac2ae41d1026d&x-expires=1784156400&x-signature=AWm8h3VAba2ldLwYG0D0WqzRUBQ%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
       "url": "https://www.tiktok.com/@emilysentner/video/7649219659287334158",
       "stats": {
         "views": 53889170,
@@ -241,14 +189,14 @@
       "sound_name": null,
       "source_query_or_hashtag": "tiktok:top-contents",
       "published_at": "2026-06-09T02:39:09.000Z",
-      "ai_blurb": "With 53M+ views, this Love Island clip likely trends by tapping into massive fandom excitement and relatable relationship drama that users can't resist rewatching. Leverage existing fan communities and cultural moments—moments of genuine emotion or shock resonate more than produced content."
+      "ai_blurb": "With 53.8M views, this Love Island-related content capitalizes on trending reality TV and celebrity/influencer culture (@Kalshi tag). Borrow the approach of tying into major pop culture moments or trending shows with simple, relatable captions that let the visual carry the story."
     },
     {
       "id": "tiktok:7651062867281677582",
       "platform": "tiktok",
       "rank": 2,
       "title": "",
-      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oMUqLBD9QDBEfcyFfEAgQbGFSguSFQIhTunRSC~tplv-tiktokx-origin.image?dr=9643&nonce=73692&refresh_token=22560daaa80a61fa96d98765883ea2f4&x-expires=1784127600&x-signature=UKVXHQ0PeEdLaUaFaHz2USog%2Ff4%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
+      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oMUqLBD9QDBEfcyFfEAgQbGFSguSFQIhTunRSC~tplv-tiktokx-origin.image?dr=9643&nonce=78200&refresh_token=a846a195d5a7a0bba613580399c4a222&x-expires=1784156400&x-signature=IK0F2bl29GfezA0sQ%2FfKV5q075g%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
       "url": "https://www.tiktok.com/@livbedumb/video/7651062867281677582",
       "stats": {
         "views": 24811221,
@@ -259,14 +207,14 @@
       "sound_name": null,
       "source_query_or_hashtag": "tiktok:top-contents",
       "published_at": "2026-06-14T01:51:49.000Z",
-      "ai_blurb": "With 24M+ views and minimal metadata, this video likely succeeds through audio/trend adoption or pure visual appeal—emphasizing that sometimes the hook is the sound or format rather than explicit messaging. Test trending sounds aggressively and let the audio carry the engagement."
+      "ai_blurb": "At 24.8M views with minimal caption/hashtag metadata, this suggests the visual content itself is the primary driver of virality. Focus on creating compelling, unmissable visuals that perform without relying on text hooks—let the hook be the video itself."
     },
     {
       "id": "tiktok:7645778945740262687",
       "platform": "tiktok",
       "rank": 3,
       "title": "@Triplets Ghetto Kids 😍 #WeAreReady ",
-      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/o8RiV77DFSBIhB1ViFQnsabMQDIAC4EvOAtjV~tplv-tiktokx-origin.image?dr=9643&nonce=90098&refresh_token=92d82225a0c7ff2a71491540a1365008&x-expires=1784127600&x-signature=IiD8BWRtUXkJvoVzgBhUBHk6GNM%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
+      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/o8RiV77DFSBIhB1ViFQnsabMQDIAC4EvOAtjV~tplv-tiktokx-origin.image?dr=9643&nonce=19905&refresh_token=cdc40d7304f82f63f3bb13b0cff6c838&x-expires=1784156400&x-signature=qUfrjLf%2Bco8%2BQqkEicYVEDiabaQ%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
       "url": "https://www.tiktok.com/@shakira/video/7645778945740262687",
       "stats": {
         "views": 23861654,
@@ -279,14 +227,14 @@
       "sound_name": null,
       "source_query_or_hashtag": "tiktok:top-contents",
       "published_at": "2026-05-30T20:07:39.000Z",
-      "ai_blurb": "The Triplets Ghetto Kids clip reaching 23M+ views taps into performance, charisma, and the appeal of established creator groups fans already follow. If you have team chemistry or group appeal, leverage it—audiences engage heavily with ensemble creators and returning cast members."
+      "ai_blurb": "The Triplets Ghetto Kids collaboration (23.8M views) shows that wholesome, energetic group dynamics and dance-related content performs exceptionally well on TikTok. Borrow the formula of featuring charismatic team performers with a motivational or celebratory hashtag (#WeAreReady)."
     },
     {
       "id": "tiktok:7640130725202709773",
       "platform": "tiktok",
       "rank": 4,
       "title": "I genuinely think this might be my best dumpster diving haul of the year… 🤯 Every single thing in this video was thrown away. I still can’t believe some of the stuff I found. The craziest part? You’re seeing it exactly how I saw it thanks to my Ray-Ban Meta glasses 😎♻️ Honestly these POV shots make it feel like you’re right there digging through the trash with me 😂Which find was your favourite?? @raybanmeta #raybanmetapartner",
-      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ogEp9AREEDAfpIAHAqAg61zfSCFKFMBDzwpaB1~tplv-tiktokx-origin.image?dr=9643&nonce=66840&refresh_token=56601cd7a5c2df36e61e646ff2cb986f&x-expires=1784127600&x-signature=juITnbcfoql7IfPKT0L6fbKDuB4%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
+      "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ogEp9AREEDAfpIAHAqAg61zfSCFKFMBDzwpaB1~tplv-tiktokx-origin.image?dr=9643&nonce=37074&refresh_token=c174079545fd7c38f3e5b892b0401978&x-expires=1784156400&x-signature=AWpdTk0gDeRf7ZJasLoomGXzqW0%3D&idc=useast5&ps=13740610&shcp=89439a58&shp=c6b69ba0&t=4d5b0474",
       "url": "https://www.tiktok.com/@trashboy_nyc/video/7640130725202709773",
       "stats": {
         "views": 23161980,
@@ -299,46 +247,61 @@
       "sound_name": null,
       "source_query_or_hashtag": "tiktok:top-contents",
       "published_at": "2026-05-15T14:50:04.000Z",
-      "ai_blurb": "This 23M+ view dumpster diving haul combines the thrill of discovery, the POV perspective (viewer feels immersed), product placement (#raybanmetapartner), and authentic astonishment. Borrow the immersive POV format with products integrated organically, plus the narrative of 'you won't believe what I found' to trigger curiosity."
+      "ai_blurb": "This dumpster diving content hits 23.1M views by combining sustainability, unexpected discoveries, and POV immersion (Ray-Ban Meta glasses partnership). Borrow the \"Here's what I found/discovered\" narrative with first-person perspective technology to create authentic, engaging storytelling around treasure-hunt-style content."
     },
     {
-      "id": "youtube:7tIsZ3X_zfI",
+      "id": "youtube:A4GVQn25flU",
       "platform": "youtube",
       "rank": 5,
-      "title": "Random Color = Your Temperature! 🌈🥶🔥 | Roblox Story",
-      "thumbnail_url": "https://i.ytimg.com/vi/7tIsZ3X_zfI/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/7tIsZ3X_zfI",
+      "title": "Most Satisfying Epoxy Floor Design You'll See Today 🤯 #satisfying #shorts @LuxuryStructuralDesign",
+      "thumbnail_url": "https://i.ytimg.com/vi/A4GVQn25flU/hqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/A4GVQn25flU",
       "stats": {
-        "views": 348371,
-        "likes": null,
-        "comments": 34
+        "views": 674770,
+        "likes": 6827,
+        "comments": 31
       },
       "hashtags": [
-        "#Roblox",
-        "#RobloxShorts",
-        "#Shorts",
-        "#RandomColor",
-        "#Temperature",
-        "#RobloxStory",
-        "#Gaming",
-        "#Brookhaven",
-        "#Trending",
-        "#Viral",
-        "#FYP",
-        "#YouTubeShorts",
-        "#RobloxUSA",
-        "#RobloxChallenge",
-        "#GamingShorts",
-        "#RobloxGameplay",
-        "#Roleplay",
-        "#EpicStory",
-        "#ViralShorts",
-        "#Explore"
+        "#satisfying",
+        "#shorts",
+        "#fyp",
+        "#viral",
+        "#trending",
+        "#highlights",
+        "#viralvideo",
+        "#viralcontent",
+        "#goviral",
+        "#luxurylifestyle",
+        "#youtubeshorts",
+        "#youtubeviral",
+        "#youtuber",
+        "#satisfying",
+        "#shorts",
+        "#epoxyfloor",
+        "#epoxyresin",
+        "#luxuryhomes",
+        "#luxurybedroomdesign",
+        "#interiordesign",
+        "#homemakeover",
+        "#resinart",
+        "#marblefloor",
+        "#modernhome",
+        "#bedroomdesign",
+        "#epoxyflooring",
+        "#luxurydecor",
+        "#floordesign",
+        "#diy",
+        "#satisfying",
+        "#viralshorts",
+        "#homeinspiration",
+        "#luxurylifestyle",
+        "#marbleeffect",
+        "#luxurystructuraldesign"
       ],
       "sound_name": null,
-      "source_query_or_hashtag": "search:trending challenge shorts",
-      "published_at": "2026-07-07T08:26:03Z",
-      "ai_blurb": "This Roblox story reaches 348K views by combining a catchy premise (random color determines your temperature), gameplay storytelling, and trending hashtag stacking. Use this format: create a simple game mechanic or rule-based challenge within gaming, then show the entertaining consequences unfold."
+      "source_query_or_hashtag": "search:viral shorts today",
+      "published_at": "2026-07-08T11:40:00Z",
+      "ai_blurb": "The satisfying home design/epoxy content achieves 674k views by targeting the #satisfying and #viral hashtag landscape combined with luxury lifestyle appeal and hashtag density. Use visually stunning transformations, the #satisfying tag, and aspirational lifestyle angles to drive engagement and shares."
     },
     {
       "id": "youtube:m5MkIAF-Qts",
@@ -348,8 +311,8 @@
       "thumbnail_url": "https://i.ytimg.com/vi/m5MkIAF-Qts/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/m5MkIAF-Qts",
       "stats": {
-        "views": 60184,
-        "likes": 2971,
+        "views": 73721,
+        "likes": 3104,
         "comments": 11
       },
       "hashtags": [
@@ -362,41 +325,19 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:trending sound shorts",
       "published_at": "2026-07-07T15:04:23Z",
-      "ai_blurb": "Humorous content with a creator credit ('Sound: @lloydandmattvlogs') and relatable comedy angle (dad jokes) drives 60K views and high engagement. Source trending sounds from established creators and pair them with clean, shareable humor that makes people laugh—the laugh is the hook."
+      "ai_blurb": "With 73k views and strong engagement (3.1k likes), the \"illegal/shocking dad jokes\" hook uses irreverent humor and a credited sound source to break through the algorithm. Borrow the format of pushing genre boundaries with a playful \"controversial\" angle while crediting trending audio."
     },
     {
-      "id": "youtube:BGExmyc1JB8",
+      "id": "youtube:R8P8hcPt2FU",
       "platform": "youtube",
       "rank": 7,
-      "title": "Cute trending Pomeranian big dog barking sound #shorts #germanshepherd",
-      "thumbnail_url": "https://i.ytimg.com/vi/BGExmyc1JB8/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/BGExmyc1JB8",
-      "stats": {
-        "views": 37665,
-        "likes": 209,
-        "comments": 0
-      },
-      "hashtags": [
-        "#shorts",
-        "#germanshepherd",
-        "#shorts"
-      ],
-      "sound_name": null,
-      "source_query_or_hashtag": "search:trending sound shorts",
-      "published_at": "2026-07-06T23:00:07Z",
-      "ai_blurb": "This trending video likely succeeds by combining two powerful elements: cute animals (Pomeranian) with a contrasting, funny element (big dog barking sound mismatch). Borrow the unexpected juxtaposition hook—pairing cute visuals with absurd or exaggerated audio creates immediate shareability."
-    },
-    {
-      "id": "youtube:xJqIbps3n4o",
-      "platform": "youtube",
-      "rank": 8,
       "title": "Can't stop laughing🤣#Shorts#Funny #Viral #Comedy #FYP #Trending#Challenge #beatbox #ventriloquismo",
-      "thumbnail_url": "https://i.ytimg.com/vi/xJqIbps3n4o/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/xJqIbps3n4o",
+      "thumbnail_url": "https://i.ytimg.com/vi/R8P8hcPt2FU/hqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/R8P8hcPt2FU",
       "stats": {
-        "views": 29657,
-        "likes": 352,
-        "comments": 1
+        "views": 44188,
+        "likes": 607,
+        "comments": 2
       },
       "hashtags": [
         "#Shorts",
@@ -411,18 +352,90 @@
       ],
       "sound_name": null,
       "source_query_or_hashtag": "search:trending challenge shorts",
-      "published_at": "2026-07-06T17:05:26Z",
-      "ai_blurb": "The beatbox + ventriloquism combo paired with infectious laughter achieves virality through showcasing surprising talent or skill-based entertainment. Feature unexpected talent combinations or skills that make viewers go 'wait, how is that even possible?'—the wow factor drives shares."
+      "published_at": "2026-07-07T16:54:39Z",
+      "ai_blurb": "The beatbox and ventriloquism challenge format taps into skill-based, talent-focused content that triggers laughs (#FYP #Trending #Challenge tags). Create short clips showcasing impressive or unusual skill demonstrations that feel naturally entertaining rather than purely instructional."
+    },
+    {
+      "id": "youtube:dfrqIElUkYQ",
+      "platform": "youtube",
+      "rank": 8,
+      "title": "😳 They Move Without Walking?! Would You Try This Challenge? #shorts",
+      "thumbnail_url": "https://i.ytimg.com/vi/dfrqIElUkYQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/dfrqIElUkYQ",
+      "stats": {
+        "views": 34904,
+        "likes": 137,
+        "comments": 4
+      },
+      "hashtags": [
+        "#shorts",
+        "#shorts",
+        "#shorts",
+        "#viral",
+        "#funnychallenge",
+        "#challenge",
+        "#oddlysatisfying",
+        "#trending",
+        "#shorts",
+        "#viral",
+        "#challenge",
+        "#funnychallenge",
+        "#oddlysatisfying",
+        "#trending",
+        "#funny",
+        "#skills",
+        "#games",
+        "#viralvideo",
+        "#selfimprovement",
+        "#motivation",
+        "#success",
+        "#mindset",
+        "#discipline",
+        "#grind",
+        "#quotes",
+        "#shorts"
+      ],
+      "sound_name": null,
+      "source_query_or_hashtag": "search:trending challenge shorts",
+      "published_at": "2026-07-07T20:30:47Z",
+      "ai_blurb": "The mysterious, intrigue-driven hook (\"They Move Without Walking?!\") combined with challenge and odd-satisfaction appeals makes this perform at 34k views. Use surprising or impossible-seeming premises with question marks to spark curiosity, then deliver the satisfying reveal."
+    },
+    {
+      "id": "youtube:F0qum3zCcHU",
+      "platform": "youtube",
+      "rank": 9,
+      "title": "7 Years of Good Luck? 🍀😂 | Viral Couple Dance Challenge #Shorts #usa",
+      "thumbnail_url": "https://i.ytimg.com/vi/F0qum3zCcHU/hqdefault.jpg",
+      "url": "https://www.youtube.com/shorts/F0qum3zCcHU",
+      "stats": {
+        "views": 34507,
+        "likes": 103,
+        "comments": 0
+      },
+      "hashtags": [
+        "#Shorts",
+        "#usa",
+        "#Shorts",
+        "#usa",
+        "#usa",
+        "#dance",
+        "#challenge",
+        "#trending"
+      ],
+      "sound_name": null,
+      "source_query_or_hashtag": "search:trending challenge shorts",
+      "published_at": "2026-07-08T02:49:25Z",
+      "ai_blurb": "The couple dance challenge format with luck/superstition angle (\"7 Years of Good Luck?\") blends viral challenge culture with relatable, lighthearted themes. Borrow the approach of pairing trendy dance challenges with a fun narrative or superstition hook to encourage participation."
     },
     {
       "id": "youtube:33DCM8viarc",
       "platform": "youtube",
-      "rank": 9,
+      "rank": 10,
       "title": "Real burger vs Fake burger 🍔 cake challenge 🤯 #shorts #challenge",
       "thumbnail_url": "https://i.ytimg.com/vi/33DCM8viarc/hqdefault.jpg",
       "url": "https://www.youtube.com/shorts/33DCM8viarc",
       "stats": {
-        "views": 29303,
+        "views": 29426,
         "likes": null,
         "comments": 14
       },
@@ -447,34 +460,7 @@
       "sound_name": null,
       "source_query_or_hashtag": "search:trending challenge shorts",
       "published_at": "2026-07-07T10:41:05Z",
-      "ai_blurb": "The 'real vs fake' visual puzzle format taps into satisfying optical illusions and guessing games that keep viewers engaged to see the reveal. Use before-and-after, guess-the-difference, or illusion-based formats where the viewer genuinely doesn't know the answer until the reveal."
-    },
-    {
-      "id": "youtube:ioiIikG1zZo",
-      "platform": "youtube",
-      "rank": 10,
-      "title": "#ronaldo #messi #football #trending #viral #shorts #reels #challenge",
-      "thumbnail_url": "https://i.ytimg.com/vi/ioiIikG1zZo/hqdefault.jpg",
-      "url": "https://www.youtube.com/shorts/ioiIikG1zZo",
-      "stats": {
-        "views": 29034,
-        "likes": null,
-        "comments": 0
-      },
-      "hashtags": [
-        "#ronaldo",
-        "#messi",
-        "#football",
-        "#trending",
-        "#viral",
-        "#shorts",
-        "#reels",
-        "#challenge"
-      ],
-      "sound_name": null,
-      "source_query_or_hashtag": "search:trending challenge shorts",
-      "published_at": "2026-07-06T20:30:07Z",
-      "ai_blurb": "With minimal context but 29K views, this likely trends by leveraging massive sports fandom (Ronaldo/Messi) and challenge format appeal—sports fans will engage with content featuring their heroes regardless of specific details. Tap into existing passionate fan communities and create content around their favorite athletes or teams."
+      "ai_blurb": "The \"guess the difference\" game format (Real vs. Fake cake) leverages viewer participation and #oddlysatisfying aesthetics to achieve 29k views. Replicate this format by creating \"spot the difference\" or \"guess which is real\" content that forces engaged viewing and satisfying reveals."
     }
   ]
 }
