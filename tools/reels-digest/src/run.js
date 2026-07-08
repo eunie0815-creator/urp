@@ -24,10 +24,12 @@ async function main() {
 
   const nicheConfig = await loadJson("config/niche-queries.json");
   const generalConfig = await loadJson("config/general-queries.json");
+  const regionConfig = await loadJson("config/region.json");
+  const regionCode = regionConfig.regionCode;
 
   console.log("Fetching TikTok...");
   const tiktok = await fetchTikTok({
-    countryCode: generalConfig.tiktok.countryCode,
+    countryCode: regionCode,
     timeRangeDays: generalConfig.tiktok.timeRangeDays,
   });
   console.log(`TikTok status: ${tiktok.status}, items: ${tiktok.items.length}`);
@@ -37,6 +39,7 @@ async function main() {
     apiKey: youtubeApiKey,
     nicheQueries: nicheConfig.youtubeQueries,
     generalQueries: generalConfig.youtubeQueries,
+    regionCode,
   });
   console.log(
     `YouTube status: ${youtube.status}, niche: ${youtube.nicheItems.length}, general: ${youtube.generalItems.length}, quota: ${youtube.quotaUnitsUsed}`

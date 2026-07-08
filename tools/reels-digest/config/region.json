@@ -1,0 +1,5 @@
+{
+  "regionCode": "US",
+  "_availableOptions": ["US", "GB", "KR"],
+  "_note": "ISO 3166-1 alpha-2 country code, used to anchor both TikTok and YouTube results to one region. Change regionCode to switch."
+}

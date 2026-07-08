@@ -12,7 +12,7 @@ function hoursAgoIso(hours) {
   return new Date(Date.now() - hours * 60 * 60 * 1000).toISOString();
 }
 
-async function searchCandidateIds({ apiKey, query, publishedAfter, maxResults }) {
+async function searchCandidateIds({ apiKey, query, publishedAfter, maxResults, regionCode }) {
   const url = new URL(`${API_BASE}/search`);
   url.searchParams.set("part", "snippet");
   url.searchParams.set("q", query);
@@ -21,6 +21,7 @@ async function searchCandidateIds({ apiKey, query, publishedAfter, maxResults })
   url.searchParams.set("videoDuration", "short");
   url.searchParams.set("publishedAfter", publishedAfter);
   url.searchParams.set("maxResults", String(maxResults));
+  url.searchParams.set("regionCode", regionCode);
   url.searchParams.set("key", apiKey);
 
   const res = await fetch(url);
@@ -33,6 +34,33 @@ async function searchCandidateIds({ apiKey, query, publishedAfter, maxResults })
     videoId: item.id.videoId,
     query,
   }));
+}
+
+// search.list's regionCode only affects viewability/relevance hints, not where a
+// channel is actually based — with order=viewCount it barely narrows results (most
+// videos are globally viewable). To honor an actual region choice, we cross-check
+// each candidate's channel-declared country and only keep matches.
+async function fetchChannelCountries({ apiKey, channelIds }) {
+  const countryByChannel = new Map();
+  const uniqueIds = [...new Set(channelIds)];
+  for (let i = 0; i < uniqueIds.length; i += 50) {
+    const batch = uniqueIds.slice(i, i + 50);
+    const url = new URL(`${API_BASE}/channels`);
+    url.searchParams.set("part", "snippet");
+    url.searchParams.set("id", batch.join(","));
+    url.searchParams.set("key", apiKey);
+
+    const res = await fetch(url);
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`channels.list HTTP ${res.status}: ${body.slice(0, 300)}`);
+    }
+    const data = await res.json();
+    for (const item of data.items || []) {
+      countryByChannel.set(item.id, item.snippet?.country || null);
+    }
+  }
+  return countryByChannel;
 }
 
 async function fetchVideoDetails({ apiKey, videoIds }) {
@@ -86,13 +114,13 @@ function mapToItem(video, sourceQuery, rank) {
   };
 }
 
-async function fetchForQueries({ apiKey, queries, publishedAfterHours, maxResultsPerQuery }) {
+async function fetchForQueries({ apiKey, queries, publishedAfterHours, maxResultsPerQuery, regionCode }) {
   let quotaUnits = 0;
   const publishedAfter = hoursAgoIso(publishedAfterHours);
 
   const candidateLists = await Promise.all(
     queries.map((q) =>
-      searchCandidateIds({ apiKey, query: q, publishedAfter, maxResults: maxResultsPerQuery })
+      searchCandidateIds({ apiKey, query: q, publishedAfter, maxResults: maxResultsPerQuery, regionCode })
     )
   );
   quotaUnits += queries.length * 100;
@@ -110,12 +138,17 @@ async function fetchForQueries({ apiKey, queries, publishedAfterHours, maxResult
   const details = await fetchVideoDetails({ apiKey, videoIds });
   quotaUnits += Math.ceil(videoIds.length / 50);
 
+  const channelIds = [...details.values()].map((v) => v.snippet.channelId);
+  const countryByChannel = await fetchChannelCountries({ apiKey, channelIds });
+  quotaUnits += Math.ceil(new Set(channelIds).size / 50);
+
   const items = [];
   let rank = 1;
   const sorted = [...details.values()].sort(
     (a, b) => Number(b.statistics?.viewCount || 0) - Number(a.statistics?.viewCount || 0)
   );
   for (const video of sorted) {
+    if (countryByChannel.get(video.snippet.channelId) !== regionCode) continue;
     const durationSeconds = parseIso8601DurationSeconds(video.contentDetails.duration);
     if (durationSeconds == null || durationSeconds > MAX_SHORTS_SECONDS) continue;
     items.push(mapToItem(video, queryByVideoId.get(video.id), rank));
@@ -125,7 +158,7 @@ async function fetchForQueries({ apiKey, queries, publishedAfterHours, maxResult
   return { items, quotaUnits };
 }
 
-export async function fetchYouTube({ apiKey, nicheQueries, generalQueries }) {
+export async function fetchYouTube({ apiKey, nicheQueries, generalQueries, regionCode }) {
   const result = {
     status: "ok",
     error: null,
@@ -136,8 +169,8 @@ export async function fetchYouTube({ apiKey, nicheQueries, generalQueries }) {
 
   try {
     const [niche, general] = await Promise.all([
-      fetchForQueries({ apiKey, queries: nicheQueries, publishedAfterHours: 48, maxResultsPerQuery: 25 }),
-      fetchForQueries({ apiKey, queries: generalQueries, publishedAfterHours: 48, maxResultsPerQuery: 25 }),
+      fetchForQueries({ apiKey, queries: nicheQueries, publishedAfterHours: 48, maxResultsPerQuery: 50, regionCode }),
+      fetchForQueries({ apiKey, queries: generalQueries, publishedAfterHours: 48, maxResultsPerQuery: 50, regionCode }),
     ]);
     result.nicheItems = niche.items;
     result.generalItems = general.items;
